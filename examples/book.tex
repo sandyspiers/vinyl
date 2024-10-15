@@ -1,0 +1,59 @@
+\documentclass[book]{vinyl}
+
+\addbibresource{biblio.bib}
+
+\usepackage{lipsum}
+
+\begin{document}
+
+\frontmatter
+
+\begin{titlepage}
+	\centering
+	\vspace*{12em}
+
+	{\bfseries\Huge Vinyl}
+
+	\vspace{4em}
+
+	{\large A \LaTeX template for the allergic.}
+
+	\vspace{4em}
+
+	{\itshape\large Sandy Spiers}
+
+	\vfill
+\end{titlepage}
+
+\begin{prepage}{Abstract}
+	\lipsum[1]
+\end{prepage}
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{A Chapter}
+
+According to \cite{lamport1994latex}, LaTeX is a powerful document preparation system.
+Furthermore, Knuth discusses the artistic nature of computer programming in \cite{knuth1974computer}.
+
+\lipsum[2]
+
+\section{A Section}
+
+\lipsum[4-16]
+
+\chapter{Another Section}
+
+\lipsum[17-20]
+
+\section{Heres Another}
+
+\lipsum[21-23]
+
+\backmatter
+
+\printbibliography
+
+\end{document}
