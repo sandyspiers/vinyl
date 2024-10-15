@@ -1,0 +1,9 @@
+#!/bin/bash
+TEXHOME=$HOME/texmf/tex/generic
+VINYL=$(pwd)
+mkdir -p $TEXHOME
+cd $TEXHOME
+ln -sf $VINYL/vinyl.cls vinyl.cls
+ln -sf $VINYL/vinylmacros.sty vinylmacros.sty
+ln -sf $VINYL/vinyltheorems.sty vinyltheorems.sty
+cd -
