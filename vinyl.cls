@@ -132,7 +132,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Colours
-\RequirePackage[dvipsnames, usenames]{xcolor}
+\RequirePackage[dvipsnames]{xcolor}
 \definecolor{accent}{HTML}{C80F19}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
